@@ -61,6 +61,7 @@
             SoLuong = new DataGridViewTextBoxColumn();
             DonGia = new DataGridViewTextBoxColumn();
             HinhAnh = new DataGridViewImageColumn();
+            helpProvider1 = new HelpProvider();
             groupBox1.SuspendLayout();
             ((System.ComponentModel.ISupportInitialize)picHinhAnh).BeginInit();
             ((System.ComponentModel.ISupportInitialize)numDonGia).BeginInit();
@@ -441,5 +442,6 @@
         private DataGridViewTextBoxColumn SoLuong;
         private DataGridViewTextBoxColumn DonGia;
         private DataGridViewImageColumn HinhAnh;
+        private HelpProvider helpProvider1;
     }
 }
